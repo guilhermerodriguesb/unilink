@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+main .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaçamento entre as <sections> content e profile */
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.profile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    margin-bottom: 100px; /* O botão margim-bottom faz o espaçamento entre profile e footer */
+}
+
+
+.profile .photo {
+    margin-bottom: 20px;
+}
+
+.profile .photo img {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #003366;
+}
+
+.profile-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-menu ul li {
+    margin: 8px 0;
+}
+
+.profile-menu ul li a {
+    color: #003366;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+.profile-menu ul li a:hover {
+    background-color: #e0e0e0;
+}
+
+
+.birthdays {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.birthdays h2 {
+    color: #003366;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.birthday-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.birthday-card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.birthday-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.birthday-card p {
+    margin: 0;
+    color: #003366;
+    font-size: 14px;
+}
